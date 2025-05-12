@@ -1,0 +1,8 @@
+exclude:
+  - venv
+  - notebooks
+  - dbt_project
+  - scripts
+  - data
+  - README.md
+  - requirements.txt
