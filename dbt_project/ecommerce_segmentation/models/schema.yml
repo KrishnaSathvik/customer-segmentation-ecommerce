@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: raw_transactions
+
+models:
+  - name: customer_rfm
+    description: "RFM metrics for each customer"
+    columns:
+      - name: customer_id
+      - name: recency_days
+      - name: frequency
+      - name: monetary
